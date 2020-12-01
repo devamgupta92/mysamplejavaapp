@@ -22,7 +22,7 @@ public class SalesforceRestStarter {
     private static final String TOKEN_URL =  "https://login.salesforce.com/services/oauth2/token";
 
     public static void main(String[] args) throws Exception {
-
+        system.out.println("app running");
         String username;
         String password;
         String consumerKey;
